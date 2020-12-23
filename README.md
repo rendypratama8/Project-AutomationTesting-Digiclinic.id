@@ -1,1 +1,0 @@
-# Project-AutomationTesting-Digiclinic.id
