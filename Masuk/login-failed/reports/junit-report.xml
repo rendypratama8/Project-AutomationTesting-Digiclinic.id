@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login-ke-website;user-gagal-melakukan-login" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:/TRAINING/SQA/Pertemuan 11 - Selenium Praktek/login-failed/features/signin.feature">
+            </property>
+        </properties>
+        <testcase name="Given user halaman utama login" classname="login-ke-website;user-gagal-melakukan-login" time="0.003699">
+        </testcase>
+        <testcase name="And user klik tombol masuk" classname="login-ke-website;user-gagal-melakukan-login" time="0.0003017">
+        </testcase>
+        <testcase name="And user memasukan email" classname="login-ke-website;user-gagal-melakukan-login" time="0.0004094">
+        </testcase>
+        <testcase name="And user memasukan password" classname="login-ke-website;user-gagal-melakukan-login" time="0.0006738">
+        </testcase>
+        <testcase name="When user klik tombol login" classname="login-ke-website;user-gagal-melakukan-login" time="0.0007964">
+        </testcase>
+        <testcase name="Then menampilkan pesan error pada label password atau email" classname="login-ke-website;user-gagal-melakukan-login" time="0.0002253">
+        </testcase>
+    </testsuite>
+</testsuites>

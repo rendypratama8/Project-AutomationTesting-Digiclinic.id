@@ -1,0 +1,157 @@
+[
+  {
+    "description": "    Sebagai user\n    Saya ingin untuk mampu daftar akun",
+    "elements": [
+      {
+        "id": "daftar-akun-baru-di-website;user-gagal-untuk-melakukan-daftar-akun",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User gagal untuk melakukan daftar akun",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user akses halaman utama Digiclinic",
+            "result": {
+              "status": "passed",
+              "duration": 1451700
+            },
+            "line": 9,
+            "match": {
+              "location": "Akhir\\functional-testing\\step-definitions\\daftar-steps.js:3"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user klik pilihan menu Daftar",
+            "result": {
+              "status": "passed",
+              "duration": 417999
+            },
+            "line": 10,
+            "match": {
+              "location": "Akhir\\functional-testing\\step-definitions\\daftar-steps.js:7"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user klik fitur Daftar",
+            "result": {
+              "status": "passed",
+              "duration": 12739043899
+            },
+            "line": 11,
+            "match": {
+              "location": "Akhir\\functional-testing\\step-definitions\\daftar-steps.js:13"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user input Nama Lengkap",
+            "result": {
+              "status": "passed",
+              "duration": 479700
+            },
+            "line": 12,
+            "match": {
+              "location": "Akhir\\functional-testing\\step-definitions\\daftar-steps.js:32"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user input Email",
+            "result": {
+              "status": "passed",
+              "duration": 399200
+            },
+            "line": 13,
+            "match": {
+              "location": "Akhir\\functional-testing\\step-definitions\\daftar-steps.js:38"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user input No hp",
+            "result": {
+              "status": "passed",
+              "duration": 419800
+            },
+            "line": 14,
+            "match": {
+              "location": "Akhir\\functional-testing\\step-definitions\\daftar-steps.js:44"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user input Nama Klinik",
+            "result": {
+              "status": "passed",
+              "duration": 420700
+            },
+            "line": 15,
+            "match": {
+              "location": "Akhir\\functional-testing\\step-definitions\\daftar-steps.js:50"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user klik tombol Daftar",
+            "result": {
+              "status": "passed",
+              "duration": 554101
+            },
+            "line": 16,
+            "match": {
+              "location": "Akhir\\functional-testing\\step-definitions\\daftar-steps.js:56"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "sistem menampilkan status error pada label Email dan No hp",
+            "result": {
+              "status": "passed",
+              "duration": 265101
+            },
+            "line": 17,
+            "match": {
+              "location": "Akhir\\functional-testing\\step-definitions\\daftar-steps.js:62"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 1499625899
+            },
+            "hidden": true,
+            "match": {
+              "location": "Akhir\\functional-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failed-email-nohp",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "daftar-akun-baru-di-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Daftar akun baru di website",
+    "tags": [],
+    "uri": "D:\\Study\\Job\\Telkom Indonesia\\Digital Talent Incubator\\Materi\\Pertemuan 13 (Project 3 atau Akhir)\\functional-testing\\features\\daftar.feature"
+  }
+]

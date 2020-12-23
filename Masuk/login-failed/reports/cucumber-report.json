@@ -1,0 +1,118 @@
+[
+  {
+    "description": "    Sebagai user baru\n    saya ingin melakukan login",
+    "elements": [
+      {
+        "id": "login-ke-website;user-gagal-melakukan-login",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User gagal melakukan login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user halaman utama login",
+            "result": {
+              "status": "passed",
+              "duration": 3699000
+            },
+            "line": 9,
+            "match": {
+              "location": "Praktek\\login-failed\\step-definitions\\signin-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user klik tombol masuk",
+            "result": {
+              "status": "passed",
+              "duration": 301700
+            },
+            "line": 10,
+            "match": {
+              "location": "Praktek\\login-failed\\step-definitions\\signin-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user memasukan email",
+            "result": {
+              "status": "passed",
+              "duration": 409400
+            },
+            "line": 11,
+            "match": {
+              "location": "Praktek\\login-failed\\step-definitions\\signin-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user memasukan password",
+            "result": {
+              "status": "passed",
+              "duration": 673800
+            },
+            "line": 12,
+            "match": {
+              "location": "Praktek\\login-failed\\step-definitions\\signin-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user klik tombol login",
+            "result": {
+              "status": "passed",
+              "duration": 796400
+            },
+            "line": 13,
+            "match": {
+              "location": "Praktek\\login-failed\\step-definitions\\signin-steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "menampilkan pesan error pada label password atau email",
+            "result": {
+              "status": "passed",
+              "duration": 225300
+            },
+            "line": 14,
+            "match": {
+              "location": "Praktek\\login-failed\\step-definitions\\signin-steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 35545631200
+            },
+            "hidden": true,
+            "match": {
+              "location": "Praktek\\login-failed\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failed",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-ke-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Login ke website",
+    "tags": [],
+    "uri": "D:/TRAINING/SQA/Pertemuan 11 - Selenium Praktek/login-failed/features/signin.feature"
+  }
+]

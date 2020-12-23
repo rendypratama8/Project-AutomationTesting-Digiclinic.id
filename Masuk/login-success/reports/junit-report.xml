@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="login-ke-website;user-berhasil-melakukan-login" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="D:/TRAINING/SQA/Pertemuan 11 - Selenium Praktek/login-learn/features/signin.feature">
+            </property>
+        </properties>
+        <testcase name="Given user halaman utama login" classname="login-ke-website;user-berhasil-melakukan-login" time="0.0042486">
+        </testcase>
+        <testcase name="And user klik tombol masuk" classname="login-ke-website;user-berhasil-melakukan-login" time="0.0003179">
+        </testcase>
+        <testcase name="And user memasukan email" classname="login-ke-website;user-berhasil-melakukan-login" time="0.0002392">
+        </testcase>
+        <testcase name="When user memasukan password" classname="login-ke-website;user-berhasil-melakukan-login" time="0.0002441">
+        </testcase>
+        <testcase name="Then user klik tombol login" classname="login-ke-website;user-berhasil-melakukan-login" time="0.0011395">
+        </testcase>
+    </testsuite>
+</testsuites>

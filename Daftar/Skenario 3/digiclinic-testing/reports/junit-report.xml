@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="daftar-ke-website;user-gagal-untuk-melakukan-daftar-akun" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="@failed" value="true">
+            </property>
+            <property name="URI" value="D:\Study\Job\Telkom Indonesia\Digital Talent Incubator\Materi\Pertemuan 13 (Project 3 atau Akhir)\digiclinic-testing\features\daftar2.feature">
+            </property>
+        </properties>
+        <testcase name="Given user akses halaman utama Digiclinic" classname="daftar-ke-website;user-gagal-untuk-melakukan-daftar-akun" time="0.0017326">
+        </testcase>
+        <testcase name="And user klik pilihan menu Daftar" classname="daftar-ke-website;user-gagal-untuk-melakukan-daftar-akun" time="0.0003875">
+        </testcase>
+        <testcase name="And user klik fitur Daftar" classname="daftar-ke-website;user-gagal-untuk-melakukan-daftar-akun" time="0.000390899">
+        </testcase>
+        <testcase name="And user input Nama Lengkap" classname="daftar-ke-website;user-gagal-untuk-melakukan-daftar-akun" time="0.0003511">
+        </testcase>
+        <testcase name="And user input Email" classname="daftar-ke-website;user-gagal-untuk-melakukan-daftar-akun" time="0.0002626">
+        </testcase>
+        <testcase name="And user input Nama Klinik" classname="daftar-ke-website;user-gagal-untuk-melakukan-daftar-akun" time="0.0003409">
+        </testcase>
+        <testcase name="When user klik tombol Daftar" classname="daftar-ke-website;user-gagal-untuk-melakukan-daftar-akun" time="0.000275">
+        </testcase>
+        <testcase name="Then sistem menampilkan status error pada label Nama Lengkap, Email, No hp, dan Nama Klinik" classname="daftar-ke-website;user-gagal-untuk-melakukan-daftar-akun" time="0.0001544">
+        </testcase>
+    </testsuite>
+</testsuites>

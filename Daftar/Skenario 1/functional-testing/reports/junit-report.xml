@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="daftar-akun-baru-di-website;user-gagal-untuk-melakukan-daftar-akun" tests="9" failures="0" skipped="0">
+        <properties>
+            <property name="@failed-email-nohp" value="true">
+            </property>
+            <property name="URI" value="D:\Study\Job\Telkom Indonesia\Digital Talent Incubator\Materi\Pertemuan 13 (Project 3 atau Akhir)\functional-testing\features\daftar.feature">
+            </property>
+        </properties>
+        <testcase name="Given user akses halaman utama Digiclinic" classname="daftar-akun-baru-di-website;user-gagal-untuk-melakukan-daftar-akun" time="0.0014517">
+        </testcase>
+        <testcase name="And user klik pilihan menu Daftar" classname="daftar-akun-baru-di-website;user-gagal-untuk-melakukan-daftar-akun" time="0.000417999">
+        </testcase>
+        <testcase name="And user klik fitur Daftar" classname="daftar-akun-baru-di-website;user-gagal-untuk-melakukan-daftar-akun" time="12.739043899">
+        </testcase>
+        <testcase name="And user input Nama Lengkap" classname="daftar-akun-baru-di-website;user-gagal-untuk-melakukan-daftar-akun" time="0.0004797">
+        </testcase>
+        <testcase name="And user input Email" classname="daftar-akun-baru-di-website;user-gagal-untuk-melakukan-daftar-akun" time="0.0003992">
+        </testcase>
+        <testcase name="And user input No hp" classname="daftar-akun-baru-di-website;user-gagal-untuk-melakukan-daftar-akun" time="0.0004198">
+        </testcase>
+        <testcase name="And user input Nama Klinik" classname="daftar-akun-baru-di-website;user-gagal-untuk-melakukan-daftar-akun" time="0.0004207">
+        </testcase>
+        <testcase name="When user klik tombol Daftar" classname="daftar-akun-baru-di-website;user-gagal-untuk-melakukan-daftar-akun" time="0.000554101">
+        </testcase>
+        <testcase name="Then sistem menampilkan status error pada label Email dan No hp" classname="daftar-akun-baru-di-website;user-gagal-untuk-melakukan-daftar-akun" time="0.000265101">
+        </testcase>
+    </testsuite>
+</testsuites>

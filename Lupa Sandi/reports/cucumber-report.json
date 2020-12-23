@@ -1,0 +1,328 @@
+[
+  {
+    "description": "    As a user I want to be able to Lupa sandi\n    pada Digiclinic.id",
+    "elements": [
+      {
+        "id": "lupa-sandi-pada-digiclinic.id;user-berhasil-melakukan-lupa-sandi",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User berhasil melakukan lupa sandi",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Halaman Utama Digiclinic",
+            "result": {
+              "status": "passed",
+              "duration": 1041300
+            },
+            "line": 9,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User klik pilihan masuk/daftar",
+            "result": {
+              "status": "passed",
+              "duration": 270800
+            },
+            "line": 10,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User klik fitur lupa Sandi",
+            "result": {
+              "status": "passed",
+              "duration": 11878118500
+            },
+            "line": 11,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User memasukan email",
+            "result": {
+              "status": "passed",
+              "duration": 449800
+            },
+            "line": 12,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:30"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User klik tombol Lupa sandi",
+            "result": {
+              "status": "passed",
+              "duration": 405000
+            },
+            "line": 13,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Sistem menampilkan status periksa email",
+            "result": {
+              "status": "passed",
+              "duration": 525565600
+            },
+            "line": 14,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:42"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 148754100
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "User gagal melakukan lupa sandi",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Halaman Utama Digiclinic",
+            "result": {
+              "status": "passed",
+              "duration": 594100
+            },
+            "line": 18,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User klik pilihan masuk/daftar",
+            "result": {
+              "status": "passed",
+              "duration": 237900
+            },
+            "line": 19,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User klik fitur lupa Sandi",
+            "result": {
+              "status": "passed",
+              "duration": 10256993200
+            },
+            "line": 20,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User memasukan format email salah",
+            "result": {
+              "status": "passed",
+              "duration": 848400
+            },
+            "line": 21,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:55"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User klik tombol Lupa sandi",
+            "result": {
+              "status": "passed",
+              "duration": 479800
+            },
+            "line": 22,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Sistem menampilkan status error format",
+            "result": {
+              "status": "passed",
+              "duration": 426577900
+            },
+            "line": 23,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:61"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 323990600
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failed-format",
+            "line": 16
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "id": "lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi",
+        "keyword": "Scenario",
+        "line": 26,
+        "name": "User gagal melakukan lupa sandi",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "Halaman Utama Digiclinic",
+            "result": {
+              "status": "passed",
+              "duration": 483300
+            },
+            "line": 27,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User klik pilihan masuk/daftar",
+            "result": {
+              "status": "passed",
+              "duration": 231700
+            },
+            "line": 28,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User klik fitur lupa Sandi",
+            "result": {
+              "status": "passed",
+              "duration": 9294434500
+            },
+            "line": 29,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "User memasukan email tidak terdaftar",
+            "result": {
+              "status": "passed",
+              "duration": 760300
+            },
+            "line": 30,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:74"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "User klik tombol Lupa sandi",
+            "result": {
+              "status": "passed",
+              "duration": 626000
+            },
+            "line": 31,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:36"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "Sistem menampilkan status The Email containts is not found",
+            "result": {
+              "status": "passed",
+              "duration": 587731800
+            },
+            "line": 32,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\step-definitions\\lupa-sandi-steps.js:80"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 496844700
+            },
+            "hidden": true,
+            "match": {
+              "location": "C:\\Users\\Rendy\\digiclinic-testing\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@failed-tidak-terdaftar",
+            "line": 25
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "lupa-sandi-pada-digiclinic.id",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Lupa Sandi pada Digiclinic.id",
+    "tags": [],
+    "uri": "C:\\Users\\Rendy\\digiclinic-testing\\features\\lupa-sandi.feature"
+  }
+]

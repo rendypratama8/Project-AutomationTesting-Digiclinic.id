@@ -1,0 +1,105 @@
+[
+  {
+    "description": "    Sebagai user baru\n    saya ingin melakukan login",
+    "elements": [
+      {
+        "id": "login-ke-website;user-berhasil-melakukan-login",
+        "keyword": "Scenario",
+        "line": 8,
+        "name": "User berhasil melakukan login",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "name": "user halaman utama login",
+            "result": {
+              "status": "passed",
+              "duration": 4248600
+            },
+            "line": 9,
+            "match": {
+              "location": "Praktek\\login-learn\\step-definitions\\signin-steps.js:2"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user klik tombol masuk",
+            "result": {
+              "status": "passed",
+              "duration": 317900
+            },
+            "line": 10,
+            "match": {
+              "location": "Praktek\\login-learn\\step-definitions\\signin-steps.js:6"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "name": "user memasukan email",
+            "result": {
+              "status": "passed",
+              "duration": 239200
+            },
+            "line": 11,
+            "match": {
+              "location": "Praktek\\login-learn\\step-definitions\\signin-steps.js:12"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "name": "user memasukan password",
+            "result": {
+              "status": "passed",
+              "duration": 244100
+            },
+            "line": 12,
+            "match": {
+              "location": "Praktek\\login-learn\\step-definitions\\signin-steps.js:18"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "name": "user klik tombol login",
+            "result": {
+              "status": "passed",
+              "duration": 1139500
+            },
+            "line": 13,
+            "match": {
+              "location": "Praktek\\login-learn\\step-definitions\\signin-steps.js:24"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "After ",
+            "result": {
+              "status": "passed",
+              "duration": 13907112900
+            },
+            "hidden": true,
+            "match": {
+              "location": "Praktek\\login-learn\\node_modules\\selenium-cucumber-js\\runtime\\world.js:250"
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@success",
+            "line": 7
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "login-ke-website",
+    "keyword": "Feature",
+    "line": 3,
+    "name": "Login ke website",
+    "tags": [],
+    "uri": "D:/TRAINING/SQA/Pertemuan 11 - Selenium Praktek/login-learn/features/signin.feature"
+  }
+]

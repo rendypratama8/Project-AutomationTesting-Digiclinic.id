@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="lupa-sandi-pada-digiclinic.id;user-berhasil-melakukan-lupa-sandi" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="@success" value="true">
+            </property>
+            <property name="URI" value="C:\Users\Rendy\digiclinic-testing\features\lupa-sandi.feature">
+            </property>
+        </properties>
+        <testcase name="Given Halaman Utama Digiclinic" classname="lupa-sandi-pada-digiclinic.id;user-berhasil-melakukan-lupa-sandi" time="0.0010413">
+        </testcase>
+        <testcase name="And User klik pilihan masuk/daftar" classname="lupa-sandi-pada-digiclinic.id;user-berhasil-melakukan-lupa-sandi" time="0.0002708">
+        </testcase>
+        <testcase name="And User klik fitur lupa Sandi" classname="lupa-sandi-pada-digiclinic.id;user-berhasil-melakukan-lupa-sandi" time="11.8781185">
+        </testcase>
+        <testcase name="And User memasukan email" classname="lupa-sandi-pada-digiclinic.id;user-berhasil-melakukan-lupa-sandi" time="0.0004498">
+        </testcase>
+        <testcase name="When User klik tombol Lupa sandi" classname="lupa-sandi-pada-digiclinic.id;user-berhasil-melakukan-lupa-sandi" time="0.000405">
+        </testcase>
+        <testcase name="Then Sistem menampilkan status periksa email" classname="lupa-sandi-pada-digiclinic.id;user-berhasil-melakukan-lupa-sandi" time="0.5255656">
+        </testcase>
+    </testsuite>
+    <testsuite name="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="@failed-format" value="true">
+            </property>
+            <property name="URI" value="C:\Users\Rendy\digiclinic-testing\features\lupa-sandi.feature">
+            </property>
+        </properties>
+        <testcase name="Given Halaman Utama Digiclinic" classname="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" time="0.0005941">
+        </testcase>
+        <testcase name="And User klik pilihan masuk/daftar" classname="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" time="0.0002379">
+        </testcase>
+        <testcase name="And User klik fitur lupa Sandi" classname="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" time="10.2569932">
+        </testcase>
+        <testcase name="And User memasukan format email salah" classname="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" time="0.0008484">
+        </testcase>
+        <testcase name="When User klik tombol Lupa sandi" classname="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" time="0.0004798">
+        </testcase>
+        <testcase name="Then Sistem menampilkan status error format" classname="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" time="0.4265779">
+        </testcase>
+    </testsuite>
+    <testsuite name="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" tests="6" failures="0" skipped="0">
+        <properties>
+            <property name="@failed-tidak-terdaftar" value="true">
+            </property>
+            <property name="URI" value="C:\Users\Rendy\digiclinic-testing\features\lupa-sandi.feature">
+            </property>
+        </properties>
+        <testcase name="Given Halaman Utama Digiclinic" classname="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" time="0.0004833">
+        </testcase>
+        <testcase name="And User klik pilihan masuk/daftar" classname="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" time="0.0002317">
+        </testcase>
+        <testcase name="And User klik fitur lupa Sandi" classname="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" time="9.2944345">
+        </testcase>
+        <testcase name="And User memasukan email tidak terdaftar" classname="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" time="0.0007603">
+        </testcase>
+        <testcase name="When User klik tombol Lupa sandi" classname="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" time="0.000626">
+        </testcase>
+        <testcase name="Then Sistem menampilkan status The Email containts is not found" classname="lupa-sandi-pada-digiclinic.id;user-gagal-melakukan-lupa-sandi" time="0.5877318">
+        </testcase>
+    </testsuite>
+</testsuites>
